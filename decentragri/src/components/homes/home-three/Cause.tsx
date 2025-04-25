@@ -99,7 +99,7 @@ const Cause = () => {
                                              <span className="position">{item.designation}</span>
                                           </div>
                                        </div>
-                                       <Link href="/use-case-details"
+                                       <Link href="https://decentragri.gitbook.io/decentragri.com"
                                           className="theme-btn style-one">Learn More</Link>
                                     </div>
                                  </div>

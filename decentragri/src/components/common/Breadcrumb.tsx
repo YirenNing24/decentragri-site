@@ -7,8 +7,7 @@ interface PropsType {
 const Breadcrumb = ({ title, sub_title }: PropsType) => {
    return (
       <section className="page-banner">
-         <div className="page-banner-wrapper bg_cover"
-            style={{ backgroundImage: "url(/assets/images/bg/page-banner.jpg)" }}>
+         <div className="page-banner-wrapper bg_cover">
             <div className="shape shape-one"><span className="circle"></span></div>
             <div className="shape shape-two"><span className="circle"></span></div>
             <div className="container">

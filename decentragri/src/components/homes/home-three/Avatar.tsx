@@ -70,7 +70,7 @@ const Avatar = () => {
                         <p>In a few seconds, our A.I. will generate amazing results that <br /> you can
                            copy, paste & publish. , write creatively</p>
                      </div>
-                     <Link href="/use-cases" className="theme-btn style-one">Learn More</Link>
+                     <Link href="https://decentragri.gitbook.io/decentragri.com" className="theme-btn style-one">Learn More</Link>
                   </div>
                </div>
                <div className="col-xl-7">

@@ -1,4 +1,4 @@
-import HeaderOne from "@/layouts/headers/HeaderOne"
+import HeaderThree from "@/layouts/headers/HeaderThree"
 import Breadcrumb from "../common/Breadcrumb"
 import ContactArea from "./ContactArea"
 import ContactFormArea from "./ContactFormArea"
@@ -8,13 +8,11 @@ import FooterTwo from "@/layouts/footers/FooterTwo"
 const Contact = () => {
    return (
       <div className="ac-page-wrapper">
-         <HeaderOne style={true} />
+         <HeaderThree />
          <div className="smooth-wrapper">
             <div id="smooth-content">
                <Breadcrumb title="Get in Touch With Us" sub_title="Contact" />
-               <ContactFormArea />
                <ContactArea />
-               <Cta />
             </div>
          </div>
          <FooterTwo />

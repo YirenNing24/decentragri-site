@@ -115,7 +115,7 @@
     }
     &.style-five{
         padding: 40px 40px 30px;
-        background-color: $black-dark-color;
+        background-color: #c6c6c6;
         border-radius: 13px;
         @media #{$lg}{
             padding: 40px 25px 30px;
@@ -130,27 +130,29 @@
             @extend %flex-center;
             font-size: 32px;
             @extend %white-color;
-            background: linear-gradient(90deg, #F762D8 -8.37%, #814AFF 52.7%, #4AB6FE 110.76%);
+            background: linear-gradient(90deg, #1B4D30 0%, #2F7A4B 50%, #66BB6A 100%);
+
             margin-bottom: 40px;
         }
-        & .content{
-            & h5{
+        & .content {
+            & h5 {
                 font-size: 22px;
-                @extend %white-color; 
+                color: #1D1D1D; // changed here
                 margin-bottom: 20px;
             }
-            & p{
-                @extend %white-color;
-                &:hover{
-                    & a{
+            & p {
+                color: #1D1D1D; // changed here
+                &:hover {
+                    & a {
                         @extend %primary-bgc;
                     }
                 }
-                & a{
+                & a {
                     display: block;
                 }
             }
         }
+        
     }
 }
 

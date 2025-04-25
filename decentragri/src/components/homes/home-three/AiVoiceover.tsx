@@ -176,7 +176,7 @@ const AiVoiceover = () => {
                            <li>Clone your own voice</li>
                            <li>Automatic closed captions included</li>
                         </ul>
-                        <Link href="/about" className="theme-btn style-one">Learn More</Link>
+                        <Link href="https://decentragri.gitbook.io/decentragri.com" className="theme-btn style-one">Learn More</Link>
                      </div>
                   </div>
                </div>

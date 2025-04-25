@@ -1073,9 +1073,9 @@ ul.social-link li {
   border-radius: 12px;
 }
 
-.page-banner .page-banner-wrapper {
+.page-banner  {
   position: relative;
-  background-color: var(--black-dark-color);
+  background-color: var(--white-color);
   padding: 215px 0 130px;
   z-index: 1;
 }

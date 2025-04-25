@@ -22,7 +22,7 @@ const Hero = () => {
                            <li>Edit as simply as a slide-deck, no experience required</li> */}
                         </ul>
                         <div className="hero-button wow fadeInUp">
-                           <Link href="/" className="theme-btn style-one">Sign-up </Link>
+                           <Link href="https://decentragri.gitbook.io/decentragri.com" className="theme-btn style-one">Learn More </Link>
                         </div>
                      </div>
                   </div>

@@ -42,12 +42,34 @@ const NavMenu = () => {
         <ul>
             {menu_data.map((menu) => (
                 <li key={menu.id} className={`has-dropdown ${openSubmenus[menu.id] ? "submenu-open" : ""}`}>
-                    <Link href={menu.link} className={`${(isMenuItemActive(menu.link) || (menu.sub_menus && menu.sub_menus.some((sub_m) => sub_m.link && isSubMenuItemActive(sub_m.link)))) ? "active" : ""}`}>
-                        {menu.title}
-                        {menu.has_dropdown && <span className="dd-trigger" onClick={() => toggleSubMenu(menu.id)}>
-                            <i className="far fa-angle-down"></i>
-                        </span>}
-                    </Link>
+                    {menu.link.startsWith("http") ? (
+                        <a
+                            href={menu.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`${
+                                isMenuItemActive(menu.link) ||
+                                (menu.sub_menus && menu.sub_menus.some((sub_m) => sub_m.link && isSubMenuItemActive(sub_m.link)))
+                                    ? "active"
+                                    : ""
+                            }`}
+                        >
+                            {menu.title}
+                        </a>
+                    ) : (
+                        <Link
+                            href={menu.link}
+                            className={`${
+                                isMenuItemActive(menu.link) ||
+                                (menu.sub_menus && menu.sub_menus.some((sub_m) => sub_m.link && isSubMenuItemActive(sub_m.link)))
+                                    ? "active"
+                                    : ""
+                            }`}
+                        >
+                            {menu.title}
+                        </Link>
+                    )}
+
 
                     {menu.has_dropdown && (
                         <>

@@ -196,7 +196,7 @@
 .page-banner{
     & .page-banner-wrapper{
         position: relative;
-        background-color: $black-dark-color;
+        background-color: rgb(247, 247, 247);
         padding: 215px 0 130px;
         z-index: 1;
         @media #{$xs}{
@@ -210,7 +210,7 @@
                     width: 225px;
                     height: 225px;
                     border-radius: 50%;
-                    background-color: #854BFE;
+                    background-color: #2F7A4B;
                     filter: blur(100px);
                 }
             }
@@ -230,7 +230,8 @@
     & h3.ac-breadcrumb__title{
         font: 700 40px $font;
         line-height: 50px;
-        background: linear-gradient(90deg, #F762D8 -8.37%, #814AFF 52.7%, #4AB6FE 110.76%);
+        background: linear-gradient(90deg, #1B4D30 0%, #2F7A4B 50%, #66BB6A 100%);
+
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -240,20 +241,23 @@
             line-height: 35px;
         }
     }
-    & .ac-breadcrumb__list{
+    & .ac-breadcrumb__list {
         display: flex;
         align-items: center;
         justify-content: center;
-        & span{
-            @extend %white-color;
-            &.dot{
+    
+        & span {
+            color: #2F7A4B; // replaces %white-color with black
+    
+            &.dot {
                 margin-left: 10px;
                 margin-right: 10px;
                 width: 8px;
                 height: 8px;
                 border-radius: 50%;
-                @extend %white-bg;
+                background-color: #2F7A4B; // replaces %white-bg with black
             }
         }
     }
+    
 }
