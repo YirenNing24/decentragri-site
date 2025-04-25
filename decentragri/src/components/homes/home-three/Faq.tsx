@@ -22,8 +22,6 @@ const Faq = () => {
                   <div className="section-content-box mb-50 pl-xl-45 wow fadeInRight">
                      <div className="section-title mb-50">
                         <h2>Frequently Asked Questions</h2>
-                        <p>In a few seconds, our A.I. will generate amazing results that <br /> you can
-                           copy, paste & publish. , write creatively</p>
                      </div>
                      <div className="accordion" id="accordionTwo">
                         {faq_data.filter((items) => items.page === "home_3").map((item) => (
