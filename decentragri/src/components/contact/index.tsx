@@ -1,8 +1,6 @@
 import HeaderThree from "@/layouts/headers/HeaderThree"
 import Breadcrumb from "../common/Breadcrumb"
 import ContactArea from "./ContactArea"
-import ContactFormArea from "./ContactFormArea"
-import Cta from "../common/Cta"
 import FooterTwo from "@/layouts/footers/FooterTwo"
 
 const Contact = () => {
