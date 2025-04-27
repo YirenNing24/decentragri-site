@@ -2,7 +2,7 @@ import { StaticImageData } from "next/image";
 
 import team_1 from "@/assets/images/about/trev_full.png"
 import team_2 from "@/assets/images/about/paul_full.png"
-import team_3 from "@/assets/images/team/team-3.jpg"
+import team_3 from "@/assets/images/about/ssa_full.png"
 import team_4 from "@/assets/images/team/team-4.jpg"
 
 
@@ -20,7 +20,7 @@ const team_data: DataType[] = [
       id: 1,
       img: team_1,
       title: "Trevin Olegario",
-      designation: "CEO",
+      designation: "CEO, Developer",
    },
    {
       id: 2,
@@ -31,8 +31,8 @@ const team_data: DataType[] = [
    {
       id: 3,
       img: team_3,
-      title: "Robert Fox",
-      designation: "Team Leader",
+      title: "Alyssa Lomeda",
+      designation: "Relations Officer",
    },
    {
       id: 4,

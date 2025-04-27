@@ -33,7 +33,7 @@ const AboutArea = () => {
                      <p>
                         At DecentrAgri, our mission is simple yet profound: to make the daily lives of farmers easier and more efficient through the power of technology.<br /><br />
                         By enabling farmers to access real-time, actionable data with just a single click, we aim to remove complexity and empower better decision-making at every step.<br /><br />
-                        At DecentrAgri, we believe that innovation and nature are not opposing forces, but partners.<br /><br />
+                        We believe that innovation and nature are not opposing forces, but partners.<br /><br />
                         Our commitment is to continue developing technologies that not only simplify and enhance everyday agricultural work, but also actively contribute to preserving our environment.<br /><br />
                         We envision a future where humanity’s ingenuity and the Earth&apos;s resilience coexist in harmony, enriching lives today and securing a better tomorrow for generations to come.
                      </p>
