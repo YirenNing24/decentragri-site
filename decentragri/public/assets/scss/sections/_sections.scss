@@ -163,28 +163,30 @@
     }
 }
 
-.author-card{
-    & .author-thumb-item{
-        & .thumb{
-            flex: 0 0 auto;
-            width: 90px;
-            height: 90px;
-            border-radius: 50%;
-            @extend %primary-gradient-bg;
-            padding: 3px;
-            margin-right: 25px;
-            & img{
-                width: 100%;
-                border-radius: 100%;
-            }
-        }
-        & .content{
-            & h5{
-                margin-bottom: 13px;
-            }
-        }
-    }
+.author-card {
+	& .author-thumb-item {
+		& .thumb {
+			flex: 0 0 auto;
+			width: 90px;
+			height: 90px;
+			border-radius: 50%;
+			background: linear-gradient(90deg, #1B4D30 0%, #2F7A4B 50%, #66BB6A 100%);
+			padding: 3px;
+			margin-right: 25px;
+
+			& img {
+				width: 100%;
+				border-radius: 100%;
+			}
+		}
+		& .content {
+			& h5 {
+				margin-bottom: 13px;
+			}
+		}
+	}
 }
+
 
 .sidebar-nav-widget{
     &.style-one{

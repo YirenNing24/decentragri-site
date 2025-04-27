@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 "use client"
 import { useState } from "react";
-import ReactPaginate from "react-paginate";
 import team_data from "@/data/TeamData"
 import Image from "next/image"
 import Link from "next/link"
@@ -11,15 +10,13 @@ const TeamArea = () => {
    const team = team_data;
 
    const itemsPerPage = 8;
-   const [itemOffset, setItemOffset] = useState(0);
+   // eslint-disable-next-line @typescript-eslint/no-unused-vars
+   const [itemOffset, _setItemOffset] = useState(0);
    const endOffset = itemOffset + itemsPerPage;
    const currentItems = team.slice(itemOffset, endOffset);
-   const pageCount = Math.ceil(team.length / itemsPerPage);
+
    // click to request another page.
-   const handlePageClick = (event: any) => {
-      const newOffset = (event.selected * itemsPerPage) % team.length;
-      setItemOffset(newOffset);
-   };
+
 
    return (
       <section className="team-section pt-120 pb-120">
@@ -53,7 +50,7 @@ const TeamArea = () => {
                ))}
             </div>
             <div className="row">
-               <div className="col-lg-12">
+               {/* <div className="col-lg-12">
                   <div className="ac-pagination text-center mt-30 wow fadeInUp">
                      <nav>
                         <ReactPaginate
@@ -67,7 +64,7 @@ const TeamArea = () => {
                         />
                      </nav>
                   </div>
-               </div>
+               </div> */}
             </div>
          </div>
       </section>

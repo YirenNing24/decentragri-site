@@ -46,7 +46,7 @@ const FooterTwo = () => {
                               <h4 className="footer-title">Company</h4>
                               <ul className="mb-30">
                                  <li><Link href="/about">About Us</Link></li>
-                                 <li><Link href="/sign-up">Learn More</Link></li>
+                                 <li><Link href="https://decentragri.gitbook.io/decentragri.com">Learn More</Link></li>
                                  <li><Link href="/about">Privacy & Policy</Link></li>
                               </ul>
                            </div>
